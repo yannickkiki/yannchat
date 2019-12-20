@@ -1,5 +1,7 @@
 # yannchat
 
+https://www.sitepoint.com/pusher-vue-real-time-chat-app/
+
 ## Project setup
 ```
 npm install

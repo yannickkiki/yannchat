@@ -16,6 +16,9 @@
                 </div>
             </div>
         </div>
+        <div class="user-typing">
+            <small class="text-muted" v-if="userTyping">@{{ userTyping }} is typing....</small>
+        </div>
     </div>
 </template>
 
@@ -27,6 +30,7 @@
         computed: {
             ...mapState([
                 'messages',
+                'userTyping'
             ])
         }
     }
